@@ -6,7 +6,12 @@
      "./*.css", 
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        senaPurple: "#7c3aed",
+        senaPurpleDark: "#5b21b6",
+      },
+    },
   },
   plugins: [],
 };
